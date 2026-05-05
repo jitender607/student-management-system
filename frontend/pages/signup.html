@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup | SSMS Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+    <script>
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("ssms-theme") || "light");
+    </script>
+  </head>
+  <body>
+    <main class="auth-page page-layer">
+      <section class="auth-card">
+        <div class="auth-panel brand">
+          <div class="auth-brand-badge"><span></span> Build Your Control Center</div>
+          <h1 class="auth-title">Set up your premium student management workspace in minutes.</h1>
+          <p class="auth-copy">
+            Create your account and unlock a refined operational experience for academics,
+            attendance, performance, and actionable school insights.
+          </p>
+          <div class="brand-grid">
+            <article class="brand-pill">
+              <div>
+                <strong>Unified Data</strong>
+                <p>Students, marks, attendance, and tasks connected in one place.</p>
+              </div>
+              <span>01</span>
+            </article>
+            <article class="brand-pill">
+              <div>
+                <strong>Executive UI</strong>
+                <p>A polished design language that feels like a real product.</p>
+              </div>
+              <span>02</span>
+            </article>
+            <article class="brand-pill">
+              <div>
+                <strong>Beginner Friendly</strong>
+                <p>Clean codebase using simple HTML, CSS, JavaScript, Node, and Express.</p>
+              </div>
+              <span>03</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="auth-form-wrap">
+          <h2>Create account</h2>
+          <p>Start with your name, role, and login credentials.</p>
+          <form id="signupForm" class="auth-form">
+            <div class="field-row">
+              <div>
+                <label class="input-label" for="signupName">Name</label>
+                <input id="signupName" name="name" placeholder="Full name" required />
+              </div>
+              <div>
+                <label class="input-label" for="signupRole">Role</label>
+                <select id="signupRole" name="role">
+                  <option value="Teacher" selected>Teacher</option>
+                  <option value="Admin">Admin</option>
+                  <option value="Student">Student</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-row">
+              <div>
+                <label class="input-label" for="signupEmail">Email</label>
+                <input id="signupEmail" type="email" name="email" placeholder="name@schoolmail.com" required />
+              </div>
+              <div>
+                <label class="input-label" for="signupPhone">Phone</label>
+                <input id="signupPhone" name="phone" placeholder="9876501000" />
+              </div>
+            </div>
+            <div class="field-row">
+              <div>
+                <label class="input-label" for="signupPassword">Password</label>
+                <input id="signupPassword" type="password" name="password" placeholder="Minimum 6 characters" required />
+              </div>
+              <div>
+                <label class="input-label" for="signupConfirmPassword">Confirm Password</label>
+                <input id="signupConfirmPassword" type="password" name="confirmPassword" placeholder="Re-enter password" required />
+              </div>
+            </div>
+            <button id="signupButton" class="btn btn-primary" type="submit">Create Account</button>
+          </form>
+          <p class="auth-footer">
+            <a href="/">Back to Project Overview</a>
+          </p>
+          <p class="auth-footer">
+            Already have an account?
+            <a href="/login">Sign in</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/frontend/js/signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "ssms-pro",
+  "version": "1.0.0",
+  "description": "Smart Student Management System built with HTML, CSS, JavaScript, Node.js, and Express.js",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "student-management",
+    "express",
+    "dashboard",
+    "chartjs",
+    "jspdf"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

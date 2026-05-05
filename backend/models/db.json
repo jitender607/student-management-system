@@ -1,0 +1,5546 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "name": "SSMS Admin",
+      "email": "admin@ssmspro.com",
+      "password": "admin123",
+      "role": "Admin",
+      "phone": "9876500000",
+      "theme": "light",
+      "subjects": [],
+      "assignedClassNames": [],
+      "assignedStudentIds": [],
+      "studentId": null
+    },
+    {
+      "id": "user_teacher",
+      "name": "Ananya Mehta",
+      "email": "teacher@ssmspro.com",
+      "password": "teacher123",
+      "role": "Teacher",
+      "phone": "9876500001",
+      "theme": "light",
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "Computer"
+      ],
+      "assignedClassNames": [
+        "12-A",
+        "11-B"
+      ],
+      "assignedStudentIds": [],
+      "studentId": null
+    },
+    {
+      "id": "user_student",
+      "name": "Jitender Chauhan",
+      "email": "jc504709@gmail.com",
+      "password": "jitender123",
+      "role": "Student",
+      "phone": "8219765794",
+      "theme": "light",
+      "studentId": "student_e5c9607c",
+      "subjects": [],
+      "assignedClassNames": [],
+      "assignedStudentIds": []
+    }
+  ],
+  "students": [
+    {
+      "id": "student_101",
+      "name": "Aarav Sharma",
+      "rollNo": "SSMS-001",
+      "className": "12-A",
+      "email": "aarav.sharma@schoolmail.com",
+      "phone": "9876501001"
+    },
+    {
+      "id": "student_102",
+      "name": "Diya Patel",
+      "rollNo": "SSMS-002",
+      "className": "12-A",
+      "email": "diya.patel@schoolmail.com",
+      "phone": "9876501002"
+    },
+    {
+      "id": "student_103",
+      "name": "Kabir Singh",
+      "rollNo": "SSMS-003",
+      "className": "11-B",
+      "email": "kabir.singh@schoolmail.com",
+      "phone": "9876501003"
+    },
+    {
+      "id": "student_104",
+      "name": "Meera Iyer",
+      "rollNo": "SSMS-004",
+      "className": "11-B",
+      "email": "meera.iyer@schoolmail.com",
+      "phone": "9876501004"
+    },
+    {
+      "id": "student_105",
+      "name": "Rohan Verma",
+      "rollNo": "SSMS-005",
+      "className": "10-C",
+      "email": "rohan.verma@schoolmail.com",
+      "phone": "9876501005"
+    },
+    {
+      "id": "student_106",
+      "name": "Sana Khan",
+      "rollNo": "SSMS-006",
+      "className": "10-C",
+      "email": "sana.khan@schoolmail.com",
+      "phone": "9876501006"
+    },
+    {
+      "id": "student_e5c9607c",
+      "name": "Jitender Chauhan",
+      "rollNo": "GF202347445",
+      "className": "BCA AI ML",
+      "email": "jc504709@gmail.com",
+      "phone": "8219765794"
+    },
+    {
+      "id": "student_gf2023_18492",
+      "name": "Aditi Sharma",
+      "rollNo": "GF202318492",
+      "className": "BCA AI ML",
+      "email": "aditi.sharma492@schoolmail.com",
+      "phone": "9876000092"
+    },
+    {
+      "id": "student_gf2023_64731",
+      "name": "Vivaan Kapoor",
+      "rollNo": "GF202364731",
+      "className": "BCA Data Science",
+      "email": "vivaan.kapoor731@schoolmail.com",
+      "phone": "9876000168"
+    },
+    {
+      "id": "student_gf2023_09586",
+      "name": "Ishita Verma",
+      "rollNo": "GF202309586",
+      "className": "B.Tech CSE",
+      "email": "ishita.verma586@schoolmail.com",
+      "phone": "9876000360"
+    },
+    {
+      "id": "student_gf2023_72604",
+      "name": "Arjun Malhotra",
+      "rollNo": "GF202372604",
+      "className": "BBA Digital Business",
+      "email": "arjun.malhotra604@schoolmail.com",
+      "phone": "9876000415"
+    },
+    {
+      "id": "student_gf2023_41928",
+      "name": "Naina Bansal",
+      "rollNo": "GF202341928",
+      "className": "B.Com Honors",
+      "email": "naina.bansal928@schoolmail.com",
+      "phone": "9876000576"
+    },
+    {
+      "id": "student_gf2023_95017",
+      "name": "Karan Mehta",
+      "rollNo": "GF202395017",
+      "className": "BCA AI ML",
+      "email": "karan.mehta017@schoolmail.com",
+      "phone": "9876000702"
+    },
+    {
+      "id": "student_gf2023_28643",
+      "name": "Riya Chauhan",
+      "rollNo": "GF202328643",
+      "className": "BCA Data Science",
+      "email": "riya.chauhan643@schoolmail.com",
+      "phone": "9876000865"
+    },
+    {
+      "id": "student_gf2023_56290",
+      "name": "Devansh Gupta",
+      "rollNo": "GF202356290",
+      "className": "B.Tech CSE",
+      "email": "devansh.gupta290@schoolmail.com",
+      "phone": "9876001049"
+    },
+    {
+      "id": "student_gf2023_81475",
+      "name": "Simran Kaur",
+      "rollNo": "GF202381475",
+      "className": "BBA Digital Business",
+      "email": "simran.kaur475@schoolmail.com",
+      "phone": "9876001171"
+    },
+    {
+      "id": "student_gf2023_04739",
+      "name": "Yash Thakur",
+      "rollNo": "GF202304739",
+      "className": "B.Com Honors",
+      "email": "yash.thakur739@schoolmail.com",
+      "phone": "9876001272"
+    },
+    {
+      "id": "student_gf2023_69812",
+      "name": "Tanya Sood",
+      "rollNo": "GF202369812",
+      "className": "BCA AI ML",
+      "email": "tanya.sood812@schoolmail.com",
+      "phone": "9876001382"
+    },
+    {
+      "id": "student_gf2023_42506",
+      "name": "Harsh Vardhan",
+      "rollNo": "GF202342506",
+      "className": "BCA Data Science",
+      "email": "harsh.vardhan506@schoolmail.com",
+      "phone": "9876001513"
+    },
+    {
+      "id": "student_gf2023_17064",
+      "name": "Anika Rao",
+      "rollNo": "GF202317064",
+      "className": "B.Tech CSE",
+      "email": "anika.rao064@schoolmail.com",
+      "phone": "9876001708"
+    },
+    {
+      "id": "student_gf2023_84921",
+      "name": "Pranav Joshi",
+      "rollNo": "GF202384921",
+      "className": "BBA Digital Business",
+      "email": "pranav.joshi921@schoolmail.com",
+      "phone": "9876001802"
+    },
+    {
+      "id": "student_gf2023_50678",
+      "name": "Mahi Gill",
+      "rollNo": "GF202350678",
+      "className": "B.Com Honors",
+      "email": "mahi.gill678@schoolmail.com",
+      "phone": "9876001996"
+    },
+    {
+      "id": "student_gf2023_96230",
+      "name": "Lakshay Arora",
+      "rollNo": "GF202396230",
+      "className": "BCA AI ML",
+      "email": "lakshay.arora230@schoolmail.com",
+      "phone": "9876002085"
+    },
+    {
+      "id": "student_gf2023_21795",
+      "name": "Sneha Nair",
+      "rollNo": "GF202321795",
+      "className": "BCA Data Science",
+      "email": "sneha.nair795@schoolmail.com",
+      "phone": "9876002287"
+    },
+    {
+      "id": "student_gf2023_75148",
+      "name": "Rudra Saini",
+      "rollNo": "GF202375148",
+      "className": "B.Tech CSE",
+      "email": "rudra.saini148@schoolmail.com",
+      "phone": "9876002377"
+    },
+    {
+      "id": "student_gf2023_08462",
+      "name": "Kiara Dutta",
+      "rollNo": "GF202308462",
+      "className": "BBA Digital Business",
+      "email": "kiara.dutta462@schoolmail.com",
+      "phone": "9876002528"
+    },
+    {
+      "id": "student_gf2023_61904",
+      "name": "Manav Khanna",
+      "rollNo": "GF202361904",
+      "className": "B.Com Honors",
+      "email": "manav.khanna904@schoolmail.com",
+      "phone": "9876002607"
+    },
+    {
+      "id": "student_gf2023_44817",
+      "name": "Avni Saxena",
+      "rollNo": "GF202344817",
+      "className": "BCA AI ML",
+      "email": "avni.saxena817@schoolmail.com",
+      "phone": "9876002757"
+    },
+    {
+      "id": "student_gf2023_90256",
+      "name": "Reyansh Bedi",
+      "rollNo": "GF202390256",
+      "className": "BCA Data Science",
+      "email": "reyansh.bedi256@schoolmail.com",
+      "phone": "9876002933"
+    },
+    {
+      "id": "student_gf2023_27530",
+      "name": "Pihu Chawla",
+      "rollNo": "GF202327530",
+      "className": "B.Tech CSE",
+      "email": "pihu.chawla530@schoolmail.com",
+      "phone": "9876003044"
+    },
+    {
+      "id": "student_gf2023_58691",
+      "name": "Aditya Rana",
+      "rollNo": "GF202358691",
+      "className": "BBA Digital Business",
+      "email": "aditya.rana691@schoolmail.com",
+      "phone": "9876003242"
+    },
+    {
+      "id": "student_gf2023_12947",
+      "name": "Navya Grover",
+      "rollNo": "GF202312947",
+      "className": "B.Com Honors",
+      "email": "navya.grover947@schoolmail.com",
+      "phone": "9876003335"
+    },
+    {
+      "id": "student_gf2023_76805",
+      "name": "Samarjeet Singh",
+      "rollNo": "GF202376805",
+      "className": "BCA AI ML",
+      "email": "samarjeet.singh805@schoolmail.com",
+      "phone": "9876003430"
+    },
+    {
+      "id": "student_gf2023_39420",
+      "name": "Jiya Oberoi",
+      "rollNo": "GF202339420",
+      "className": "BCA Data Science",
+      "email": "jiya.oberoi420@schoolmail.com",
+      "phone": "9876003582"
+    },
+    {
+      "id": "student_gf2023_02681",
+      "name": "Krish Ahuja",
+      "rollNo": "GF202302681",
+      "className": "B.Tech CSE",
+      "email": "krish.ahuja681@schoolmail.com",
+      "phone": "9876003780"
+    },
+    {
+      "id": "student_gf2023_65193",
+      "name": "Mehak Kohli",
+      "rollNo": "GF202365193",
+      "className": "BBA Digital Business",
+      "email": "mehak.kohli193@schoolmail.com",
+      "phone": "9876003929"
+    },
+    {
+      "id": "student_gf2023_93574",
+      "name": "Atharv Mishra",
+      "rollNo": "GF202393574",
+      "className": "B.Com Honors",
+      "email": "atharv.mishra574@schoolmail.com",
+      "phone": "9876004047"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "attendance_student_101_2026-04-01",
+      "studentId": "student_101",
+      "date": "2026-04-01",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_101_2026-04-02",
+      "studentId": "student_101",
+      "date": "2026-04-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_101_2026-04-03",
+      "studentId": "student_101",
+      "date": "2026-04-03",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_101_2026-04-04",
+      "studentId": "student_101",
+      "date": "2026-04-04",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_101_2026-04-05",
+      "studentId": "student_101",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_102_2026-04-01",
+      "studentId": "student_102",
+      "date": "2026-04-01",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_102_2026-04-02",
+      "studentId": "student_102",
+      "date": "2026-04-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_102_2026-04-03",
+      "studentId": "student_102",
+      "date": "2026-04-03",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_102_2026-04-04",
+      "studentId": "student_102",
+      "date": "2026-04-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_102_2026-04-05",
+      "studentId": "student_102",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_103_2026-04-01",
+      "studentId": "student_103",
+      "date": "2026-04-01",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_103_2026-04-02",
+      "studentId": "student_103",
+      "date": "2026-04-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_103_2026-04-03",
+      "studentId": "student_103",
+      "date": "2026-04-03",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_103_2026-04-04",
+      "studentId": "student_103",
+      "date": "2026-04-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_103_2026-04-05",
+      "studentId": "student_103",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_104_2026-04-01",
+      "studentId": "student_104",
+      "date": "2026-04-01",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_104_2026-04-02",
+      "studentId": "student_104",
+      "date": "2026-04-02",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_104_2026-04-03",
+      "studentId": "student_104",
+      "date": "2026-04-03",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_104_2026-04-04",
+      "studentId": "student_104",
+      "date": "2026-04-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_104_2026-04-05",
+      "studentId": "student_104",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_105_2026-04-01",
+      "studentId": "student_105",
+      "date": "2026-04-01",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_105_2026-04-02",
+      "studentId": "student_105",
+      "date": "2026-04-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_105_2026-04-03",
+      "studentId": "student_105",
+      "date": "2026-04-03",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_105_2026-04-04",
+      "studentId": "student_105",
+      "date": "2026-04-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_105_2026-04-05",
+      "studentId": "student_105",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_106_2026-04-01",
+      "studentId": "student_106",
+      "date": "2026-04-01",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_106_2026-04-02",
+      "studentId": "student_106",
+      "date": "2026-04-02",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_106_2026-04-03",
+      "studentId": "student_106",
+      "date": "2026-04-03",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_student_106_2026-04-04",
+      "studentId": "student_106",
+      "date": "2026-04-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_student_106_2026-04-05",
+      "studentId": "student_106",
+      "date": "2026-04-05",
+      "status": "present"
+    },
+    {
+      "id": "attendance_79d61318",
+      "studentId": "student_101",
+      "date": "2026-04-09",
+      "status": "present"
+    },
+    {
+      "id": "attendance_8cd5c858",
+      "studentId": "student_102",
+      "date": "2026-04-09",
+      "status": "present"
+    },
+    {
+      "id": "attendance_43c8c5fb",
+      "studentId": "student_103",
+      "date": "2026-04-09",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_bc1332bf",
+      "studentId": "student_104",
+      "date": "2026-04-09",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2aec6524",
+      "studentId": "student_105",
+      "date": "2026-04-09",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_0664de34",
+      "studentId": "student_106",
+      "date": "2026-04-09",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_7e2cfb95",
+      "studentId": "student_101",
+      "date": "2026-04-12",
+      "status": "present"
+    },
+    {
+      "id": "attendance_c3526ca5",
+      "studentId": "student_102",
+      "date": "2026-04-12",
+      "status": "present"
+    },
+    {
+      "id": "attendance_e4c99f70",
+      "studentId": "student_103",
+      "date": "2026-04-12",
+      "status": "present"
+    },
+    {
+      "id": "attendance_c986471b",
+      "studentId": "student_104",
+      "date": "2026-04-12",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ec99c035",
+      "studentId": "student_105",
+      "date": "2026-04-12",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_d236f7c2",
+      "studentId": "student_106",
+      "date": "2026-04-12",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_e2f2c96f",
+      "studentId": "student_101",
+      "date": "2026-04-13",
+      "status": "present"
+    },
+    {
+      "id": "attendance_57ba34f4",
+      "studentId": "student_102",
+      "date": "2026-04-13",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_9663bee4",
+      "studentId": "student_103",
+      "date": "2026-04-13",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_fbb52afd",
+      "studentId": "student_104",
+      "date": "2026-04-13",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_f8fa591f",
+      "studentId": "student_105",
+      "date": "2026-04-13",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_17edfddb",
+      "studentId": "student_106",
+      "date": "2026-04-13",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_f356952c",
+      "studentId": "student_101",
+      "date": "2026-04-14",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2a31a6b7",
+      "studentId": "student_102",
+      "date": "2026-04-14",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2311e779",
+      "studentId": "student_103",
+      "date": "2026-04-14",
+      "status": "present"
+    },
+    {
+      "id": "attendance_b8aec70e",
+      "studentId": "student_104",
+      "date": "2026-04-14",
+      "status": "present"
+    },
+    {
+      "id": "attendance_4ed61484",
+      "studentId": "student_105",
+      "date": "2026-04-14",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_504d0e5a",
+      "studentId": "student_106",
+      "date": "2026-04-14",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_c0f8f0d3",
+      "studentId": "student_101",
+      "date": "2026-04-18",
+      "status": "present"
+    },
+    {
+      "id": "attendance_e00f5955",
+      "studentId": "student_102",
+      "date": "2026-04-18",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_e45bf1d0",
+      "studentId": "student_103",
+      "date": "2026-04-18",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a500addc",
+      "studentId": "student_104",
+      "date": "2026-04-18",
+      "status": "present"
+    },
+    {
+      "id": "attendance_1abbaf98",
+      "studentId": "student_105",
+      "date": "2026-04-18",
+      "status": "present"
+    },
+    {
+      "id": "attendance_1ac7619f",
+      "studentId": "student_106",
+      "date": "2026-04-18",
+      "status": "present"
+    },
+    {
+      "id": "attendance_efbb5e13",
+      "studentId": "student_101",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_53f6e4a2",
+      "studentId": "student_e5c9607c",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_4b955a50",
+      "studentId": "student_102",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_622beff6",
+      "studentId": "student_103",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_98fa7144",
+      "studentId": "student_104",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_6f49927c",
+      "studentId": "student_105",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_dc413758",
+      "studentId": "student_106",
+      "date": "2026-04-20",
+      "status": "present"
+    },
+    {
+      "id": "attendance_7e76a1af",
+      "studentId": "student_101",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2d791ebc",
+      "studentId": "student_e5c9607c",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_cf707645",
+      "studentId": "student_102",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_55344504",
+      "studentId": "student_103",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_919af42d",
+      "studentId": "student_104",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_5210312b",
+      "studentId": "student_105",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_6ee0255f",
+      "studentId": "student_106",
+      "date": "2026-04-21",
+      "status": "present"
+    },
+    {
+      "id": "attendance_52ede559",
+      "studentId": "student_101",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_3d497fe2",
+      "studentId": "student_gf2023_18492",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ecef89cf",
+      "studentId": "student_gf2023_58691",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_9f86880f",
+      "studentId": "student_e5c9607c",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_bc43cb4c",
+      "studentId": "student_gf2023_17064",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a4155879",
+      "studentId": "student_gf2023_72604",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_045103ad",
+      "studentId": "student_gf2023_93574",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_fbbe3751",
+      "studentId": "student_gf2023_44817",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_756b6652",
+      "studentId": "student_gf2023_56290",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_fa7252ba",
+      "studentId": "student_102",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ca2f8a8d",
+      "studentId": "student_gf2023_42506",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2d69ae04",
+      "studentId": "student_gf2023_09586",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_0c85f435",
+      "studentId": "student_gf2023_39420",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_6aa113e7",
+      "studentId": "student_103",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_b00d4976",
+      "studentId": "student_gf2023_95017",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_34516607",
+      "studentId": "student_gf2023_08462",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_27f467ae",
+      "studentId": "student_gf2023_02681",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_bf878e2e",
+      "studentId": "student_gf2023_96230",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_1d15c90b",
+      "studentId": "student_gf2023_50678",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_66815440",
+      "studentId": "student_gf2023_61904",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_b28402ee",
+      "studentId": "student_104",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_514e7ee4",
+      "studentId": "student_gf2023_65193",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_0b3242a4",
+      "studentId": "student_gf2023_41928",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a729d257",
+      "studentId": "student_gf2023_12947",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_216f14aa",
+      "studentId": "student_gf2023_27530",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_0dca3fa8",
+      "studentId": "student_gf2023_84921",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2b84df05",
+      "studentId": "student_gf2023_90256",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_97aa278f",
+      "studentId": "student_gf2023_28643",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_28271ff0",
+      "studentId": "student_105",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_00d79105",
+      "studentId": "student_gf2023_75148",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_1a5c2690",
+      "studentId": "student_gf2023_76805",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_3fab4563",
+      "studentId": "student_106",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_07f2ae57",
+      "studentId": "student_gf2023_81475",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_d0d7b592",
+      "studentId": "student_gf2023_21795",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2881e87f",
+      "studentId": "student_gf2023_69812",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_dd4c1e3e",
+      "studentId": "student_gf2023_64731",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_e0c31385",
+      "studentId": "student_gf2023_04739",
+      "date": "2026-04-26",
+      "status": "present"
+    },
+    {
+      "id": "attendance_73209c5a",
+      "studentId": "student_101",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_1c47325c",
+      "studentId": "student_gf2023_18492",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_3717fd2a",
+      "studentId": "student_gf2023_58691",
+      "date": "2026-05-02",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_6205426a",
+      "studentId": "student_gf2023_17064",
+      "date": "2026-05-02",
+      "status": "absent"
+    },
+    {
+      "id": "attendance_0c543bfa",
+      "studentId": "student_gf2023_72604",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_7b2b72a3",
+      "studentId": "student_gf2023_93574",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_02a506af",
+      "studentId": "student_gf2023_44817",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_37ddb3ba",
+      "studentId": "student_gf2023_56290",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ccb6a654",
+      "studentId": "student_102",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_d14eb12c",
+      "studentId": "student_gf2023_42506",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a7354910",
+      "studentId": "student_gf2023_09586",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_83309476",
+      "studentId": "student_e5c9607c",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_0f94daa3",
+      "studentId": "student_gf2023_39420",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_42b8d474",
+      "studentId": "student_103",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_dba1503f",
+      "studentId": "student_gf2023_95017",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_3e02c7e1",
+      "studentId": "student_gf2023_08462",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_21194c84",
+      "studentId": "student_gf2023_02681",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_c589be3c",
+      "studentId": "student_gf2023_96230",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_852397a6",
+      "studentId": "student_gf2023_50678",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_e2efd19a",
+      "studentId": "student_gf2023_61904",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_07e2bbaf",
+      "studentId": "student_104",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_4a40c811",
+      "studentId": "student_gf2023_65193",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_5d78f912",
+      "studentId": "student_gf2023_41928",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2d123e2c",
+      "studentId": "student_gf2023_12947",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_73c93eb2",
+      "studentId": "student_gf2023_27530",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_5105ed2c",
+      "studentId": "student_gf2023_84921",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_96df3826",
+      "studentId": "student_gf2023_90256",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_0a0f97fb",
+      "studentId": "student_gf2023_28643",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_55aa3750",
+      "studentId": "student_105",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_adc4272d",
+      "studentId": "student_gf2023_75148",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_fffe5bc3",
+      "studentId": "student_gf2023_76805",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_eda31599",
+      "studentId": "student_106",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_569f0029",
+      "studentId": "student_gf2023_81475",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_cdda9ed6",
+      "studentId": "student_gf2023_21795",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ad0c00a4",
+      "studentId": "student_gf2023_69812",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_31660fe4",
+      "studentId": "student_gf2023_64731",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_71e61711",
+      "studentId": "student_gf2023_04739",
+      "date": "2026-05-02",
+      "status": "present"
+    },
+    {
+      "id": "attendance_acf5acdd",
+      "studentId": "student_101",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_017f1843",
+      "studentId": "student_gf2023_18492",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_d284f6bd",
+      "studentId": "student_gf2023_58691",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_129db99f",
+      "studentId": "student_gf2023_17064",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_cb8981f9",
+      "studentId": "student_gf2023_72604",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_7932be5b",
+      "studentId": "student_gf2023_93574",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_87b1b529",
+      "studentId": "student_gf2023_44817",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_977b0b3c",
+      "studentId": "student_gf2023_56290",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a6952a19",
+      "studentId": "student_102",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_30b4d7ee",
+      "studentId": "student_gf2023_42506",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_9c7cb924",
+      "studentId": "student_gf2023_09586",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_35d73f01",
+      "studentId": "student_e5c9607c",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_83ac0b26",
+      "studentId": "student_gf2023_39420",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_f10d1c23",
+      "studentId": "student_103",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_bb2a172f",
+      "studentId": "student_gf2023_95017",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_7ecf8ebd",
+      "studentId": "student_gf2023_08462",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_469c334b",
+      "studentId": "student_gf2023_02681",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2d9145d7",
+      "studentId": "student_gf2023_96230",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_2c20542a",
+      "studentId": "student_gf2023_50678",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_d0502862",
+      "studentId": "student_gf2023_61904",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_11fee1c2",
+      "studentId": "student_104",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a8487fb9",
+      "studentId": "student_gf2023_65193",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_c6ebc4ce",
+      "studentId": "student_gf2023_41928",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_644809c6",
+      "studentId": "student_gf2023_12947",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_a4796ff0",
+      "studentId": "student_gf2023_27530",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_b017bdb9",
+      "studentId": "student_gf2023_84921",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_6edd7a5c",
+      "studentId": "student_gf2023_90256",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_861285b9",
+      "studentId": "student_gf2023_28643",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_07496918",
+      "studentId": "student_105",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_adc4479f",
+      "studentId": "student_gf2023_75148",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_8e5f6f84",
+      "studentId": "student_gf2023_76805",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_48a4bbb7",
+      "studentId": "student_106",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_08e63ed4",
+      "studentId": "student_gf2023_81475",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_31ec0058",
+      "studentId": "student_gf2023_21795",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_ff727a58",
+      "studentId": "student_gf2023_69812",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_c2680264",
+      "studentId": "student_gf2023_64731",
+      "date": "2026-05-04",
+      "status": "present"
+    },
+    {
+      "id": "attendance_999ad87c",
+      "studentId": "student_gf2023_04739",
+      "date": "2026-05-04",
+      "status": "present"
+    }
+  ],
+  "marks": [
+    {
+      "id": "mark_student_101_mathematics",
+      "studentId": "student_101",
+      "subject": "Mathematics",
+      "score": 92,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_101_science",
+      "studentId": "student_101",
+      "subject": "Science",
+      "score": 88,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_101_english",
+      "studentId": "student_101",
+      "subject": "English",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_101_computer",
+      "studentId": "student_101",
+      "subject": "Computer",
+      "score": 95,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_101_history",
+      "studentId": "student_101",
+      "subject": "History",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_102_mathematics",
+      "studentId": "student_102",
+      "subject": "Mathematics",
+      "score": 86,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_102_science",
+      "studentId": "student_102",
+      "subject": "Science",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_102_english",
+      "studentId": "student_102",
+      "subject": "English",
+      "score": 84,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_102_computer",
+      "studentId": "student_102",
+      "subject": "Computer",
+      "score": 88,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_102_history",
+      "studentId": "student_102",
+      "subject": "History",
+      "score": 82,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_103_mathematics",
+      "studentId": "student_103",
+      "subject": "Mathematics",
+      "score": 72,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_103_science",
+      "studentId": "student_103",
+      "subject": "Science",
+      "score": 69,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_103_english",
+      "studentId": "student_103",
+      "subject": "English",
+      "score": 75,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_103_computer",
+      "studentId": "student_103",
+      "subject": "Computer",
+      "score": 80,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_103_history",
+      "studentId": "student_103",
+      "subject": "History",
+      "score": 74,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_104_mathematics",
+      "studentId": "student_104",
+      "subject": "Mathematics",
+      "score": 91,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_104_science",
+      "studentId": "student_104",
+      "subject": "Science",
+      "score": 87,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_104_english",
+      "studentId": "student_104",
+      "subject": "English",
+      "score": 89,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_104_computer",
+      "studentId": "student_104",
+      "subject": "Computer",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_104_history",
+      "studentId": "student_104",
+      "subject": "History",
+      "score": 85,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_105_mathematics",
+      "studentId": "student_105",
+      "subject": "Mathematics",
+      "score": 66,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_105_science",
+      "studentId": "student_105",
+      "subject": "Science",
+      "score": 62,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_105_english",
+      "studentId": "student_105",
+      "subject": "English",
+      "score": 71,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_105_computer",
+      "studentId": "student_105",
+      "subject": "Computer",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_105_history",
+      "studentId": "student_105",
+      "subject": "History",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_106_mathematics",
+      "studentId": "student_106",
+      "subject": "Mathematics",
+      "score": 58,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_106_science",
+      "studentId": "student_106",
+      "subject": "Science",
+      "score": 61,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_106_english",
+      "studentId": "student_106",
+      "subject": "English",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_106_computer",
+      "studentId": "student_106",
+      "subject": "Computer",
+      "score": 59,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_106_history",
+      "studentId": "student_106",
+      "subject": "History",
+      "score": 63,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_f36c578c",
+      "studentId": "student_101",
+      "subject": "Mathematics",
+      "score": 88,
+      "examType": "weekly test"
+    },
+    {
+      "id": "mark_b9d21796",
+      "studentId": "student_101",
+      "subject": "Mathematics",
+      "score": 90,
+      "examType": "weekly test2"
+    },
+    {
+      "id": "mark_3f2a4fcc",
+      "studentId": "student_e5c9607c",
+      "subject": "Computer",
+      "score": 100,
+      "examType": "weekly test"
+    },
+    {
+      "id": "mark_student_gf2023_18492_mathematics",
+      "studentId": "student_gf2023_18492",
+      "subject": "Mathematics",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_18492_science",
+      "studentId": "student_gf2023_18492",
+      "subject": "Science",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_18492_english",
+      "studentId": "student_gf2023_18492",
+      "subject": "English",
+      "score": 59,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_18492_computer",
+      "studentId": "student_gf2023_18492",
+      "subject": "Computer",
+      "score": 63,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_18492_history",
+      "studentId": "student_gf2023_18492",
+      "subject": "History",
+      "score": 65,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_64731_mathematics",
+      "studentId": "student_gf2023_64731",
+      "subject": "Mathematics",
+      "score": 66,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_64731_science",
+      "studentId": "student_gf2023_64731",
+      "subject": "Science",
+      "score": 85,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_64731_english",
+      "studentId": "student_gf2023_64731",
+      "subject": "English",
+      "score": 86,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_64731_computer",
+      "studentId": "student_gf2023_64731",
+      "subject": "Computer",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_64731_history",
+      "studentId": "student_gf2023_64731",
+      "subject": "History",
+      "score": 88,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_09586_mathematics",
+      "studentId": "student_gf2023_09586",
+      "subject": "Mathematics",
+      "score": 74,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_09586_science",
+      "studentId": "student_gf2023_09586",
+      "subject": "Science",
+      "score": 73,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_09586_english",
+      "studentId": "student_gf2023_09586",
+      "subject": "English",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_09586_computer",
+      "studentId": "student_gf2023_09586",
+      "subject": "Computer",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_09586_history",
+      "studentId": "student_gf2023_09586",
+      "subject": "History",
+      "score": 61,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_72604_mathematics",
+      "studentId": "student_gf2023_72604",
+      "subject": "Mathematics",
+      "score": 52,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_72604_science",
+      "studentId": "student_gf2023_72604",
+      "subject": "Science",
+      "score": 66,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_72604_english",
+      "studentId": "student_gf2023_72604",
+      "subject": "English",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_72604_computer",
+      "studentId": "student_gf2023_72604",
+      "subject": "Computer",
+      "score": 86,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_72604_history",
+      "studentId": "student_gf2023_72604",
+      "subject": "History",
+      "score": 52,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_41928_mathematics",
+      "studentId": "student_gf2023_41928",
+      "subject": "Mathematics",
+      "score": 89,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_41928_science",
+      "studentId": "student_gf2023_41928",
+      "subject": "Science",
+      "score": 49,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_41928_english",
+      "studentId": "student_gf2023_41928",
+      "subject": "English",
+      "score": 61,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_41928_computer",
+      "studentId": "student_gf2023_41928",
+      "subject": "Computer",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_41928_history",
+      "studentId": "student_gf2023_41928",
+      "subject": "History",
+      "score": 62,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_95017_mathematics",
+      "studentId": "student_gf2023_95017",
+      "subject": "Mathematics",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_95017_science",
+      "studentId": "student_gf2023_95017",
+      "subject": "Science",
+      "score": 60,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_95017_english",
+      "studentId": "student_gf2023_95017",
+      "subject": "English",
+      "score": 97,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_95017_computer",
+      "studentId": "student_gf2023_95017",
+      "subject": "Computer",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_95017_history",
+      "studentId": "student_gf2023_95017",
+      "subject": "History",
+      "score": 73,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_28643_mathematics",
+      "studentId": "student_gf2023_28643",
+      "subject": "Mathematics",
+      "score": 65,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_28643_science",
+      "studentId": "student_gf2023_28643",
+      "subject": "Science",
+      "score": 85,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_28643_english",
+      "studentId": "student_gf2023_28643",
+      "subject": "English",
+      "score": 82,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_28643_computer",
+      "studentId": "student_gf2023_28643",
+      "subject": "Computer",
+      "score": 93,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_28643_history",
+      "studentId": "student_gf2023_28643",
+      "subject": "History",
+      "score": 56,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_56290_mathematics",
+      "studentId": "student_gf2023_56290",
+      "subject": "Mathematics",
+      "score": 58,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_56290_science",
+      "studentId": "student_gf2023_56290",
+      "subject": "Science",
+      "score": 85,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_56290_english",
+      "studentId": "student_gf2023_56290",
+      "subject": "English",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_56290_computer",
+      "studentId": "student_gf2023_56290",
+      "subject": "Computer",
+      "score": 75,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_56290_history",
+      "studentId": "student_gf2023_56290",
+      "subject": "History",
+      "score": 49,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_81475_mathematics",
+      "studentId": "student_gf2023_81475",
+      "subject": "Mathematics",
+      "score": 60,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_81475_science",
+      "studentId": "student_gf2023_81475",
+      "subject": "Science",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_81475_english",
+      "studentId": "student_gf2023_81475",
+      "subject": "English",
+      "score": 58,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_81475_computer",
+      "studentId": "student_gf2023_81475",
+      "subject": "Computer",
+      "score": 57,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_81475_history",
+      "studentId": "student_gf2023_81475",
+      "subject": "History",
+      "score": 82,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_04739_mathematics",
+      "studentId": "student_gf2023_04739",
+      "subject": "Mathematics",
+      "score": 55,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_04739_science",
+      "studentId": "student_gf2023_04739",
+      "subject": "Science",
+      "score": 84,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_04739_english",
+      "studentId": "student_gf2023_04739",
+      "subject": "English",
+      "score": 86,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_04739_computer",
+      "studentId": "student_gf2023_04739",
+      "subject": "Computer",
+      "score": 80,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_04739_history",
+      "studentId": "student_gf2023_04739",
+      "subject": "History",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_69812_mathematics",
+      "studentId": "student_gf2023_69812",
+      "subject": "Mathematics",
+      "score": 55,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_69812_science",
+      "studentId": "student_gf2023_69812",
+      "subject": "Science",
+      "score": 55,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_69812_english",
+      "studentId": "student_gf2023_69812",
+      "subject": "English",
+      "score": 70,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_69812_computer",
+      "studentId": "student_gf2023_69812",
+      "subject": "Computer",
+      "score": 91,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_69812_history",
+      "studentId": "student_gf2023_69812",
+      "subject": "History",
+      "score": 57,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_42506_mathematics",
+      "studentId": "student_gf2023_42506",
+      "subject": "Mathematics",
+      "score": 87,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_42506_science",
+      "studentId": "student_gf2023_42506",
+      "subject": "Science",
+      "score": 52,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_42506_english",
+      "studentId": "student_gf2023_42506",
+      "subject": "English",
+      "score": 70,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_42506_computer",
+      "studentId": "student_gf2023_42506",
+      "subject": "Computer",
+      "score": 94,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_42506_history",
+      "studentId": "student_gf2023_42506",
+      "subject": "History",
+      "score": 49,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_17064_mathematics",
+      "studentId": "student_gf2023_17064",
+      "subject": "Mathematics",
+      "score": 65,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_17064_science",
+      "studentId": "student_gf2023_17064",
+      "subject": "Science",
+      "score": 49,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_17064_english",
+      "studentId": "student_gf2023_17064",
+      "subject": "English",
+      "score": 63,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_17064_computer",
+      "studentId": "student_gf2023_17064",
+      "subject": "Computer",
+      "score": 57,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_17064_history",
+      "studentId": "student_gf2023_17064",
+      "subject": "History",
+      "score": 56,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_84921_mathematics",
+      "studentId": "student_gf2023_84921",
+      "subject": "Mathematics",
+      "score": 83,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_84921_science",
+      "studentId": "student_gf2023_84921",
+      "subject": "Science",
+      "score": 51,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_84921_english",
+      "studentId": "student_gf2023_84921",
+      "subject": "English",
+      "score": 88,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_84921_computer",
+      "studentId": "student_gf2023_84921",
+      "subject": "Computer",
+      "score": 51,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_84921_history",
+      "studentId": "student_gf2023_84921",
+      "subject": "History",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_50678_mathematics",
+      "studentId": "student_gf2023_50678",
+      "subject": "Mathematics",
+      "score": 82,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_50678_science",
+      "studentId": "student_gf2023_50678",
+      "subject": "Science",
+      "score": 76,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_50678_english",
+      "studentId": "student_gf2023_50678",
+      "subject": "English",
+      "score": 71,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_50678_computer",
+      "studentId": "student_gf2023_50678",
+      "subject": "Computer",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_50678_history",
+      "studentId": "student_gf2023_50678",
+      "subject": "History",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_96230_mathematics",
+      "studentId": "student_gf2023_96230",
+      "subject": "Mathematics",
+      "score": 84,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_96230_science",
+      "studentId": "student_gf2023_96230",
+      "subject": "Science",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_96230_english",
+      "studentId": "student_gf2023_96230",
+      "subject": "English",
+      "score": 54,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_96230_computer",
+      "studentId": "student_gf2023_96230",
+      "subject": "Computer",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_96230_history",
+      "studentId": "student_gf2023_96230",
+      "subject": "History",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_21795_mathematics",
+      "studentId": "student_gf2023_21795",
+      "subject": "Mathematics",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_21795_science",
+      "studentId": "student_gf2023_21795",
+      "subject": "Science",
+      "score": 91,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_21795_english",
+      "studentId": "student_gf2023_21795",
+      "subject": "English",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_21795_computer",
+      "studentId": "student_gf2023_21795",
+      "subject": "Computer",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_21795_history",
+      "studentId": "student_gf2023_21795",
+      "subject": "History",
+      "score": 49,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_75148_mathematics",
+      "studentId": "student_gf2023_75148",
+      "subject": "Mathematics",
+      "score": 69,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_75148_science",
+      "studentId": "student_gf2023_75148",
+      "subject": "Science",
+      "score": 46,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_75148_english",
+      "studentId": "student_gf2023_75148",
+      "subject": "English",
+      "score": 91,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_75148_computer",
+      "studentId": "student_gf2023_75148",
+      "subject": "Computer",
+      "score": 73,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_75148_history",
+      "studentId": "student_gf2023_75148",
+      "subject": "History",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_08462_mathematics",
+      "studentId": "student_gf2023_08462",
+      "subject": "Mathematics",
+      "score": 96,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_08462_science",
+      "studentId": "student_gf2023_08462",
+      "subject": "Science",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_08462_english",
+      "studentId": "student_gf2023_08462",
+      "subject": "English",
+      "score": 74,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_08462_computer",
+      "studentId": "student_gf2023_08462",
+      "subject": "Computer",
+      "score": 60,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_08462_history",
+      "studentId": "student_gf2023_08462",
+      "subject": "History",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_61904_mathematics",
+      "studentId": "student_gf2023_61904",
+      "subject": "Mathematics",
+      "score": 63,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_61904_science",
+      "studentId": "student_gf2023_61904",
+      "subject": "Science",
+      "score": 63,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_61904_english",
+      "studentId": "student_gf2023_61904",
+      "subject": "English",
+      "score": 89,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_61904_computer",
+      "studentId": "student_gf2023_61904",
+      "subject": "Computer",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_61904_history",
+      "studentId": "student_gf2023_61904",
+      "subject": "History",
+      "score": 83,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_44817_mathematics",
+      "studentId": "student_gf2023_44817",
+      "subject": "Mathematics",
+      "score": 53,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_44817_science",
+      "studentId": "student_gf2023_44817",
+      "subject": "Science",
+      "score": 93,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_44817_english",
+      "studentId": "student_gf2023_44817",
+      "subject": "English",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_44817_computer",
+      "studentId": "student_gf2023_44817",
+      "subject": "Computer",
+      "score": 57,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_44817_history",
+      "studentId": "student_gf2023_44817",
+      "subject": "History",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_90256_mathematics",
+      "studentId": "student_gf2023_90256",
+      "subject": "Mathematics",
+      "score": 62,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_90256_science",
+      "studentId": "student_gf2023_90256",
+      "subject": "Science",
+      "score": 69,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_90256_english",
+      "studentId": "student_gf2023_90256",
+      "subject": "English",
+      "score": 84,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_90256_computer",
+      "studentId": "student_gf2023_90256",
+      "subject": "Computer",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_90256_history",
+      "studentId": "student_gf2023_90256",
+      "subject": "History",
+      "score": 67,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_27530_mathematics",
+      "studentId": "student_gf2023_27530",
+      "subject": "Mathematics",
+      "score": 69,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_27530_science",
+      "studentId": "student_gf2023_27530",
+      "subject": "Science",
+      "score": 53,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_27530_english",
+      "studentId": "student_gf2023_27530",
+      "subject": "English",
+      "score": 86,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_27530_computer",
+      "studentId": "student_gf2023_27530",
+      "subject": "Computer",
+      "score": 66,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_27530_history",
+      "studentId": "student_gf2023_27530",
+      "subject": "History",
+      "score": 54,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_58691_mathematics",
+      "studentId": "student_gf2023_58691",
+      "subject": "Mathematics",
+      "score": 74,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_58691_science",
+      "studentId": "student_gf2023_58691",
+      "subject": "Science",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_58691_english",
+      "studentId": "student_gf2023_58691",
+      "subject": "English",
+      "score": 85,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_58691_computer",
+      "studentId": "student_gf2023_58691",
+      "subject": "Computer",
+      "score": 69,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_58691_history",
+      "studentId": "student_gf2023_58691",
+      "subject": "History",
+      "score": 90,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_12947_mathematics",
+      "studentId": "student_gf2023_12947",
+      "subject": "Mathematics",
+      "score": 68,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_12947_science",
+      "studentId": "student_gf2023_12947",
+      "subject": "Science",
+      "score": 87,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_12947_english",
+      "studentId": "student_gf2023_12947",
+      "subject": "English",
+      "score": 79,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_12947_computer",
+      "studentId": "student_gf2023_12947",
+      "subject": "Computer",
+      "score": 71,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_12947_history",
+      "studentId": "student_gf2023_12947",
+      "subject": "History",
+      "score": 76,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_76805_mathematics",
+      "studentId": "student_gf2023_76805",
+      "subject": "Mathematics",
+      "score": 71,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_76805_science",
+      "studentId": "student_gf2023_76805",
+      "subject": "Science",
+      "score": 78,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_76805_english",
+      "studentId": "student_gf2023_76805",
+      "subject": "English",
+      "score": 82,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_76805_computer",
+      "studentId": "student_gf2023_76805",
+      "subject": "Computer",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_76805_history",
+      "studentId": "student_gf2023_76805",
+      "subject": "History",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_39420_mathematics",
+      "studentId": "student_gf2023_39420",
+      "subject": "Mathematics",
+      "score": 56,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_39420_science",
+      "studentId": "student_gf2023_39420",
+      "subject": "Science",
+      "score": 56,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_39420_english",
+      "studentId": "student_gf2023_39420",
+      "subject": "English",
+      "score": 89,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_39420_computer",
+      "studentId": "student_gf2023_39420",
+      "subject": "Computer",
+      "score": 50,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_39420_history",
+      "studentId": "student_gf2023_39420",
+      "subject": "History",
+      "score": 54,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_02681_mathematics",
+      "studentId": "student_gf2023_02681",
+      "subject": "Mathematics",
+      "score": 93,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_02681_science",
+      "studentId": "student_gf2023_02681",
+      "subject": "Science",
+      "score": 48,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_02681_english",
+      "studentId": "student_gf2023_02681",
+      "subject": "English",
+      "score": 87,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_02681_computer",
+      "studentId": "student_gf2023_02681",
+      "subject": "Computer",
+      "score": 57,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_02681_history",
+      "studentId": "student_gf2023_02681",
+      "subject": "History",
+      "score": 54,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_65193_mathematics",
+      "studentId": "student_gf2023_65193",
+      "subject": "Mathematics",
+      "score": 77,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_65193_science",
+      "studentId": "student_gf2023_65193",
+      "subject": "Science",
+      "score": 54,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_65193_english",
+      "studentId": "student_gf2023_65193",
+      "subject": "English",
+      "score": 64,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_65193_computer",
+      "studentId": "student_gf2023_65193",
+      "subject": "Computer",
+      "score": 73,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_65193_history",
+      "studentId": "student_gf2023_65193",
+      "subject": "History",
+      "score": 80,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_93574_mathematics",
+      "studentId": "student_gf2023_93574",
+      "subject": "Mathematics",
+      "score": 61,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_93574_science",
+      "studentId": "student_gf2023_93574",
+      "subject": "Science",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_93574_english",
+      "studentId": "student_gf2023_93574",
+      "subject": "English",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_93574_computer",
+      "studentId": "student_gf2023_93574",
+      "subject": "Computer",
+      "score": 81,
+      "examType": "Term Assessment"
+    },
+    {
+      "id": "mark_student_gf2023_93574_history",
+      "studentId": "student_gf2023_93574",
+      "subject": "History",
+      "score": 60,
+      "examType": "Term Assessment"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_2",
+      "title": "Review attendance exceptions",
+      "dueDate": "2026-04-11",
+      "priority": "Medium",
+      "completed": true
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_6d40a866",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_teacher",
+      "title": "Ananya Mehta signed in",
+      "description": "Teacher login activity recorded for teacher@ssmspro.com.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-05-04T06:09:14.509Z"
+    },
+    {
+      "id": "log_edb275b3",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-05-04T06:08:06.428Z"
+    },
+    {
+      "id": "log_1048d05e",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task completed",
+      "description": "Review attendance exceptions was marked complete.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:07:08.560Z"
+    },
+    {
+      "id": "log_cba83f6e",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task updated",
+      "description": "Review attendance exceptions was updated.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:07:07.427Z"
+    },
+    {
+      "id": "log_3c39095e",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_04739",
+      "title": "Yash Thakur marked present",
+      "description": "Yash Thakur was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_04739",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_7d0cc848",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_64731",
+      "title": "Vivaan Kapoor marked present",
+      "description": "Vivaan Kapoor was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_64731",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_b723c7de",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_69812",
+      "title": "Tanya Sood marked present",
+      "description": "Tanya Sood was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_69812",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_2019966c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_21795",
+      "title": "Sneha Nair marked present",
+      "description": "Sneha Nair was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_21795",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_5402941d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_81475",
+      "title": "Simran Kaur marked present",
+      "description": "Simran Kaur was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_81475",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_697cbcf7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_a029a66f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_76805",
+      "title": "Samarjeet Singh marked present",
+      "description": "Samarjeet Singh was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_76805",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_eb8a8153",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_75148",
+      "title": "Rudra Saini marked present",
+      "description": "Rudra Saini was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_75148",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_5c59fdfa",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_ae9dcca5",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_28643",
+      "title": "Riya Chauhan marked present",
+      "description": "Riya Chauhan was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_28643",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_6d5ee226",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_90256",
+      "title": "Reyansh Bedi marked present",
+      "description": "Reyansh Bedi was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_90256",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_4ea988ca",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_84921",
+      "title": "Pranav Joshi marked present",
+      "description": "Pranav Joshi was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_84921",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_6a1f1f13",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_27530",
+      "title": "Pihu Chawla marked present",
+      "description": "Pihu Chawla was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_27530",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_c8d34f87",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_12947",
+      "title": "Navya Grover marked present",
+      "description": "Navya Grover was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_12947",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_40ba14a9",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_41928",
+      "title": "Naina Bansal marked present",
+      "description": "Naina Bansal was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_41928",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_4b1d56b3",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_65193",
+      "title": "Mehak Kohli marked present",
+      "description": "Mehak Kohli was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_65193",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_e9b69c2d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_eaf75873",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_61904",
+      "title": "Manav Khanna marked present",
+      "description": "Manav Khanna was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_61904",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_cbc85fc3",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_50678",
+      "title": "Mahi Gill marked present",
+      "description": "Mahi Gill was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_50678",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_0bc19734",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_96230",
+      "title": "Lakshay Arora marked present",
+      "description": "Lakshay Arora was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_96230",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_11e20fed",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_02681",
+      "title": "Krish Ahuja marked present",
+      "description": "Krish Ahuja was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_02681",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_f4140293",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_08462",
+      "title": "Kiara Dutta marked present",
+      "description": "Kiara Dutta was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_08462",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_28d726e0",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_95017",
+      "title": "Karan Mehta marked present",
+      "description": "Karan Mehta was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_95017",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_e650d5ec",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_541693cd",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_39420",
+      "title": "Jiya Oberoi marked present",
+      "description": "Jiya Oberoi was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_39420",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_4f098b2b",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_e5c9607c",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_b0d5c901",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_09586",
+      "title": "Ishita Verma marked present",
+      "description": "Ishita Verma was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_09586",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.081Z"
+    },
+    {
+      "id": "log_59341aa9",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_42506",
+      "title": "Harsh Vardhan marked present",
+      "description": "Harsh Vardhan was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_42506",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_7242acb3",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_eda29053",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_56290",
+      "title": "Devansh Gupta marked present",
+      "description": "Devansh Gupta was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_56290",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_4268eef7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_44817",
+      "title": "Avni Saxena marked present",
+      "description": "Avni Saxena was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_44817",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_75dbad49",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_93574",
+      "title": "Atharv Mishra marked present",
+      "description": "Atharv Mishra was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_93574",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_779f5089",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_72604",
+      "title": "Arjun Malhotra marked present",
+      "description": "Arjun Malhotra was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_72604",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_c183223a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_17064",
+      "title": "Anika Rao marked present",
+      "description": "Anika Rao was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_17064",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_b16ddbe9",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_58691",
+      "title": "Aditya Rana marked present",
+      "description": "Aditya Rana was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_58691",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_31cea8a1",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_18492",
+      "title": "Aditi Sharma marked present",
+      "description": "Aditi Sharma was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_18492",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_3db89eb9",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Aarav Sharma marked present",
+      "description": "Aarav Sharma was marked present for 2026-05-04.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:05:55.080Z"
+    },
+    {
+      "id": "log_c51df07e",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T06:04:37.473Z"
+    },
+    {
+      "id": "log_97001524",
+      "action": "Profile Updated",
+      "entityType": "profile",
+      "entityId": "user_admin",
+      "title": "SSMS Admin profile updated",
+      "description": "SSMS Admin updated profile information.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T05:01:28.289Z"
+    },
+    {
+      "id": "log_e7deed9a",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task completed",
+      "description": "Review attendance exceptions was marked complete.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T05:01:04.035Z"
+    },
+    {
+      "id": "log_2e22a01b",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task updated",
+      "description": "Review attendance exceptions was updated.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T05:01:03.037Z"
+    },
+    {
+      "id": "log_9a105164",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-04T04:59:59.378Z"
+    },
+    {
+      "id": "log_f7dcf7c5",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-03T10:38:58.886Z"
+    },
+    {
+      "id": "log_e1d4d307",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_04739",
+      "title": "Yash Thakur marked present",
+      "description": "Yash Thakur was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_04739",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_870af36f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_64731",
+      "title": "Vivaan Kapoor marked present",
+      "description": "Vivaan Kapoor was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_64731",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_26004010",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_69812",
+      "title": "Tanya Sood marked present",
+      "description": "Tanya Sood was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_69812",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_63ca366c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_21795",
+      "title": "Sneha Nair marked present",
+      "description": "Sneha Nair was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_21795",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_cc31781f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_81475",
+      "title": "Simran Kaur marked present",
+      "description": "Simran Kaur was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_81475",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_8b5d34ae",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_7ff54bd8",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_76805",
+      "title": "Samarjeet Singh marked present",
+      "description": "Samarjeet Singh was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_76805",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_74440a2d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_75148",
+      "title": "Rudra Saini marked present",
+      "description": "Rudra Saini was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_75148",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_b6b65661",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_54950312",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_28643",
+      "title": "Riya Chauhan marked present",
+      "description": "Riya Chauhan was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_28643",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_faac3d2d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_90256",
+      "title": "Reyansh Bedi marked present",
+      "description": "Reyansh Bedi was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_90256",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_f2f36827",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_84921",
+      "title": "Pranav Joshi marked present",
+      "description": "Pranav Joshi was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_84921",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_dfb0db66",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_27530",
+      "title": "Pihu Chawla marked present",
+      "description": "Pihu Chawla was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_27530",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_4df2a7aa",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_12947",
+      "title": "Navya Grover marked present",
+      "description": "Navya Grover was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_12947",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_708ca54b",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_41928",
+      "title": "Naina Bansal marked present",
+      "description": "Naina Bansal was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_41928",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_6aba33b7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_65193",
+      "title": "Mehak Kohli marked present",
+      "description": "Mehak Kohli was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_65193",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_395d2fa7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_fd01e609",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_61904",
+      "title": "Manav Khanna marked present",
+      "description": "Manav Khanna was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_61904",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_3fedbfda",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_50678",
+      "title": "Mahi Gill marked present",
+      "description": "Mahi Gill was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_50678",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_efcc6041",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_96230",
+      "title": "Lakshay Arora marked present",
+      "description": "Lakshay Arora was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_96230",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_a308eed2",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_02681",
+      "title": "Krish Ahuja marked present",
+      "description": "Krish Ahuja was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_02681",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_ccde67ae",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_08462",
+      "title": "Kiara Dutta marked present",
+      "description": "Kiara Dutta was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_08462",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.043Z"
+    },
+    {
+      "id": "log_d8df9508",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_95017",
+      "title": "Karan Mehta marked present",
+      "description": "Karan Mehta was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_95017",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_96d09535",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_66a1c19c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_39420",
+      "title": "Jiya Oberoi marked present",
+      "description": "Jiya Oberoi was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_39420",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_51a05fa8",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_e5c9607c",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_72c2c574",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_09586",
+      "title": "Ishita Verma marked present",
+      "description": "Ishita Verma was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_09586",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_e7ed7526",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_42506",
+      "title": "Harsh Vardhan marked present",
+      "description": "Harsh Vardhan was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_42506",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_d35fb67a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_e22de3bd",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_56290",
+      "title": "Devansh Gupta marked present",
+      "description": "Devansh Gupta was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_56290",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_cb05af87",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_44817",
+      "title": "Avni Saxena marked present",
+      "description": "Avni Saxena was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_44817",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_f3f96cf5",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_93574",
+      "title": "Atharv Mishra marked present",
+      "description": "Atharv Mishra was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_93574",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_9a4a22f2",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_72604",
+      "title": "Arjun Malhotra marked present",
+      "description": "Arjun Malhotra was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_72604",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_c8201241",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_17064",
+      "title": "Anika Rao marked absent",
+      "description": "Anika Rao was marked absent for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_17064",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_c99ea5d2",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_58691",
+      "title": "Aditya Rana marked absent",
+      "description": "Aditya Rana was marked absent for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_58691",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_77fc8c68",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_18492",
+      "title": "Aditi Sharma marked present",
+      "description": "Aditi Sharma was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_18492",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_69905590",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Aarav Sharma marked present",
+      "description": "Aarav Sharma was marked present for 2026-05-02.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T15:10:16.042Z"
+    },
+    {
+      "id": "log_7e132591",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-05-02T14:56:05.470Z"
+    },
+    {
+      "id": "log_09dffdca",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T23:10:51.743Z"
+    },
+    {
+      "id": "log_74b4eb67",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-04-26T23:10:25.892Z"
+    },
+    {
+      "id": "log_2f73d037",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-04-26T23:07:30.579Z"
+    },
+    {
+      "id": "log_034531b3",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-04-26T23:04:31.571Z"
+    },
+    {
+      "id": "log_0f2600f9",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:47:45.701Z"
+    },
+    {
+      "id": "log_fbdfc5c2",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:47:28.526Z"
+    },
+    {
+      "id": "log_7bcd7236",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_04739",
+      "title": "Yash Thakur marked present",
+      "description": "Yash Thakur was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_04739",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_7741c7c7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_64731",
+      "title": "Vivaan Kapoor marked present",
+      "description": "Vivaan Kapoor was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_64731",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_06b53f58",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_69812",
+      "title": "Tanya Sood marked present",
+      "description": "Tanya Sood was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_69812",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_ca4eac91",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_21795",
+      "title": "Sneha Nair marked present",
+      "description": "Sneha Nair was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_21795",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_5d22199f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_81475",
+      "title": "Simran Kaur marked present",
+      "description": "Simran Kaur was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_81475",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_f150e388",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_355b0563",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_76805",
+      "title": "Samarjeet Singh marked present",
+      "description": "Samarjeet Singh was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_76805",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_d62eb170",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_75148",
+      "title": "Rudra Saini marked present",
+      "description": "Rudra Saini was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_75148",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_7aab1689",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_6a5dbb31",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_28643",
+      "title": "Riya Chauhan marked present",
+      "description": "Riya Chauhan was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_28643",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_c850d0e0",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_90256",
+      "title": "Reyansh Bedi marked present",
+      "description": "Reyansh Bedi was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_90256",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_ca577d16",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_84921",
+      "title": "Pranav Joshi marked present",
+      "description": "Pranav Joshi was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_84921",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_59119db3",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_27530",
+      "title": "Pihu Chawla marked present",
+      "description": "Pihu Chawla was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_27530",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_ed8e774a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_12947",
+      "title": "Navya Grover marked present",
+      "description": "Navya Grover was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_12947",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_c0c08034",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_41928",
+      "title": "Naina Bansal marked present",
+      "description": "Naina Bansal was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_41928",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_3f0e1fff",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_65193",
+      "title": "Mehak Kohli marked present",
+      "description": "Mehak Kohli was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_65193",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_731ae465",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_04382ce0",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_61904",
+      "title": "Manav Khanna marked present",
+      "description": "Manav Khanna was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_61904",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_0ff80132",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_50678",
+      "title": "Mahi Gill marked present",
+      "description": "Mahi Gill was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_50678",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_6993c3b8",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_96230",
+      "title": "Lakshay Arora marked present",
+      "description": "Lakshay Arora was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_96230",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_e7c2d30d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_02681",
+      "title": "Krish Ahuja marked present",
+      "description": "Krish Ahuja was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_02681",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_adf19de4",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_08462",
+      "title": "Kiara Dutta marked present",
+      "description": "Kiara Dutta was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_08462",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_0c36fec2",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_95017",
+      "title": "Karan Mehta marked present",
+      "description": "Karan Mehta was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_95017",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_c042c5db",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_bdbc3f30",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_39420",
+      "title": "Jiya Oberoi marked present",
+      "description": "Jiya Oberoi was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_39420",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_9de63503",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_09586",
+      "title": "Ishita Verma marked present",
+      "description": "Ishita Verma was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_09586",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_4cc79676",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_42506",
+      "title": "Harsh Vardhan marked present",
+      "description": "Harsh Vardhan was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_42506",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_23006413",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_1068dbeb",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_56290",
+      "title": "Devansh Gupta marked present",
+      "description": "Devansh Gupta was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_56290",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_cdbaf71a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_44817",
+      "title": "Avni Saxena marked present",
+      "description": "Avni Saxena was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_44817",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_b54a1e11",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_93574",
+      "title": "Atharv Mishra marked present",
+      "description": "Atharv Mishra was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_93574",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_1ca4a32e",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_72604",
+      "title": "Arjun Malhotra marked present",
+      "description": "Arjun Malhotra was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_72604",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_4a7e750f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_17064",
+      "title": "Anika Rao marked present",
+      "description": "Anika Rao was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_17064",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_28c1cc58",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_e5c9607c",
+      "title": "Akshay Jaswal marked present",
+      "description": "Akshay Jaswal was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_75dba36c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_58691",
+      "title": "Aditya Rana marked present",
+      "description": "Aditya Rana was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_58691",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_5ab13f50",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_gf2023_18492",
+      "title": "Aditi Sharma marked present",
+      "description": "Aditi Sharma was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_gf2023_18492",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_2764a76f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-26.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:45:14.986Z"
+    },
+    {
+      "id": "log_7c90b92a",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:43:48.789Z"
+    },
+    {
+      "id": "log_a9691fa7",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:43:42.771Z"
+    },
+    {
+      "id": "log_cdfe1717",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:43:18.360Z"
+    },
+    {
+      "id": "log_cc4168e8",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:38:49.996Z"
+    },
+    {
+      "id": "log_c1e41d10",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-26T22:25:08.246Z"
+    },
+    {
+      "id": "log_e59c41b3",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.896Z"
+    },
+    {
+      "id": "log_138acc9a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.896Z"
+    },
+    {
+      "id": "log_6af0f57f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.896Z"
+    },
+    {
+      "id": "log_796979ed",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.895Z"
+    },
+    {
+      "id": "log_fe5cfc40",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.895Z"
+    },
+    {
+      "id": "log_35c1057c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_e5c9607c",
+      "title": "Akshay Jaswal marked present",
+      "description": "Akshay Jaswal was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.895Z"
+    },
+    {
+      "id": "log_0db361d9",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-21.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:04:00.895Z"
+    },
+    {
+      "id": "log_ec298294",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-21T10:03:25.593Z"
+    },
+    {
+      "id": "log_0d7fb43d",
+      "action": "Marks Updated",
+      "entityType": "marks",
+      "entityId": "mark_3f2a4fcc",
+      "title": "Akshay Jaswal scored 100 in Computer",
+      "description": "weekly test marks recorded for Akshay Jaswal in Computer.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:44.080Z"
+    },
+    {
+      "id": "log_3edad760",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_64308a3f",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_3e5f85e1",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_ce12b599",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_9e474e1d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_ed8b4546",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_e5c9607c",
+      "title": "Akshay Jaswal marked present",
+      "description": "Akshay Jaswal was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_aa6783c0",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-20.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:26.831Z"
+    },
+    {
+      "id": "log_048b2739",
+      "action": "Admin Action",
+      "entityType": "students",
+      "entityId": "student_e5c9607c",
+      "title": "Akshay Jaswal profile created",
+      "description": "Akshay Jaswal was added to class BCA AI ML.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_e5c9607c",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:55:11.333Z"
+    },
+    {
+      "id": "log_82ba99f9",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-20T04:53:13.954Z"
+    },
+    {
+      "id": "log_5511a63a",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-04-18T16:08:47.335Z"
+    },
+    {
+      "id": "log_2201c4cb",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked present",
+      "description": "Sana Khan was marked present for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_3cef0c30",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked present",
+      "description": "Rohan Verma was marked present for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_d3c5c58a",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_7e876abb",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_5e481811",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked absent",
+      "description": "Diya Patel was marked absent for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_d8ac848c",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-18.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:07:27.417Z"
+    },
+    {
+      "id": "log_d724e2b2",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_admin",
+      "title": "SSMS Admin signed in",
+      "description": "Admin login activity recorded for admin@ssmspro.com.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-18T16:05:59.639Z"
+    },
+    {
+      "id": "log_f48da6ff",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_student",
+      "title": "Jitender Chauhan signed in",
+      "description": "Student login activity recorded for jc504709@gmail.com.",
+      "actorId": "user_student",
+      "actorName": "Jitender Chauhan",
+      "actorRole": "Student",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_student",
+      "createdAt": "2026-04-18T16:00:04.412Z"
+    },
+    {
+      "id": "log_cedb227b",
+      "action": "Login Activity",
+      "entityType": "login",
+      "entityId": "user_teacher",
+      "title": "Ananya Mehta signed in",
+      "description": "Teacher login activity recorded for teacher@ssmspro.com.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-18T16:00:04.302Z"
+    },
+    {
+      "id": "log_7428ad80",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_3",
+      "title": "Task deleted",
+      "description": "Call parents for counseling follow-up was removed from the board.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:11:18.598Z"
+    },
+    {
+      "id": "log_552172d0",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task completed",
+      "description": "Review attendance exceptions was marked complete.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:11:15.731Z"
+    },
+    {
+      "id": "log_49d1539c",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_3",
+      "title": "Task updated",
+      "description": "Call parents for counseling follow-up was updated.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:11:09.741Z"
+    },
+    {
+      "id": "log_a10cfe4b",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task updated",
+      "description": "Review attendance exceptions was updated.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:11:08.813Z"
+    },
+    {
+      "id": "log_70dd2fd7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:10:05.765Z"
+    },
+    {
+      "id": "log_55165eb1",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:10:05.765Z"
+    },
+    {
+      "id": "log_1f5e2da7",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:10:05.765Z"
+    },
+    {
+      "id": "log_e3cb221d",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked absent",
+      "description": "Sana Khan was marked absent for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_9681675b",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked absent",
+      "description": "Rohan Verma was marked absent for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_e71c2910",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked absent",
+      "description": "Meera Iyer was marked absent for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_789020b5",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked absent",
+      "description": "Kabir Singh was marked absent for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_36977064",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked absent",
+      "description": "Diya Patel was marked absent for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_6b552823",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-14.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-14T07:09:55.478Z"
+    },
+    {
+      "id": "log_e74923f4",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked absent",
+      "description": "Sana Khan was marked absent for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.774Z"
+    },
+    {
+      "id": "log_073c0140",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked absent",
+      "description": "Rohan Verma was marked absent for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.774Z"
+    },
+    {
+      "id": "log_d8cf0b4e",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked absent",
+      "description": "Meera Iyer was marked absent for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.774Z"
+    },
+    {
+      "id": "log_636ae674",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked absent",
+      "description": "Kabir Singh was marked absent for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.774Z"
+    },
+    {
+      "id": "log_eb1373c2",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked absent",
+      "description": "Diya Patel was marked absent for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.774Z"
+    },
+    {
+      "id": "log_5d1cdbe6",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-13.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-13T06:39:09.773Z"
+    },
+    {
+      "id": "log_02dc8f1a",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task completed",
+      "description": "Review attendance exceptions was marked complete.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-13T06:34:47.942Z"
+    },
+    {
+      "id": "log_20384b13",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_2",
+      "title": "Task updated",
+      "description": "Review attendance exceptions was updated.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-13T06:34:45.844Z"
+    },
+    {
+      "id": "log_53c76df9",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_1",
+      "title": "Task deleted",
+      "description": "Prepare monthly academic summary was removed from the board.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-12T17:11:03.124Z"
+    },
+    {
+      "id": "log_34d0710c",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_1",
+      "title": "Task completed",
+      "description": "Prepare monthly academic summary was marked complete.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-12T17:10:58.782Z"
+    },
+    {
+      "id": "log_a8d0377e",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_1",
+      "title": "Task updated",
+      "description": "Prepare monthly academic summary was updated.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-12T17:10:56.372Z"
+    },
+    {
+      "id": "log_251f5601",
+      "action": "Marks Updated",
+      "entityType": "marks",
+      "entityId": "mark_b9d21796",
+      "title": "Jitender Chauhan scored 90 in Mathematics",
+      "description": "weekly test2 marks recorded for Jitender Chauhan in Mathematics.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:28.541Z"
+    },
+    {
+      "id": "log_07b0a675",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_106",
+      "title": "Sana Khan marked absent",
+      "description": "Sana Khan was marked absent for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_106",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:04.000Z"
+    },
+    {
+      "id": "log_226556b8",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_105",
+      "title": "Rohan Verma marked absent",
+      "description": "Rohan Verma was marked absent for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_105",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:04.000Z"
+    },
+    {
+      "id": "log_23e5cd76",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_104",
+      "title": "Meera Iyer marked present",
+      "description": "Meera Iyer was marked present for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:04.000Z"
+    },
+    {
+      "id": "log_adf8e74b",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_103",
+      "title": "Kabir Singh marked present",
+      "description": "Kabir Singh was marked present for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_103",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:03.999Z"
+    },
+    {
+      "id": "log_e0cbf188",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_102",
+      "title": "Diya Patel marked present",
+      "description": "Diya Patel was marked present for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_102",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:03.999Z"
+    },
+    {
+      "id": "log_b3b06d13",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "student_101",
+      "title": "Jitender Chauhan marked present",
+      "description": "Jitender Chauhan was marked present for 2026-04-12.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-12T17:05:03.999Z"
+    },
+    {
+      "id": "log_1",
+      "action": "Attendance Updated",
+      "entityType": "attendance",
+      "entityId": "attendance_student_101_2026-04-05",
+      "title": "Attendance marked present",
+      "description": "Jitender Chauhan was marked present for 5 Apr 2026.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_101",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-05T08:45:00.000Z"
+    },
+    {
+      "id": "log_2",
+      "action": "Marks Updated",
+      "entityType": "marks",
+      "entityId": "mark_student_104_mathematics",
+      "title": "Marks entered for Mathematics",
+      "description": "Meera Iyer received 91 in Mathematics.",
+      "actorId": "user_teacher",
+      "actorName": "Ananya Mehta",
+      "actorRole": "Teacher",
+      "relatedStudentId": "student_104",
+      "relatedUserId": "user_teacher",
+      "createdAt": "2026-04-06T09:20:00.000Z"
+    },
+    {
+      "id": "log_3",
+      "action": "Task Activity",
+      "entityType": "tasks",
+      "entityId": "task_1",
+      "title": "Monthly academic summary scheduled",
+      "description": "Prepare monthly academic summary was created with High priority.",
+      "actorId": "user_admin",
+      "actorName": "SSMS Admin",
+      "actorRole": "Admin",
+      "relatedStudentId": "",
+      "relatedUserId": "user_admin",
+      "createdAt": "2026-04-07T07:30:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "message_7df4f82d",
+      "senderId": "user_admin",
+      "senderName": "SSMS Admin",
+      "senderRole": "Admin",
+      "recipientId": "user_teacher",
+      "recipientName": "Ananya Mehta",
+      "recipientRole": "Teacher",
+      "subject": "intro",
+      "content": "deepanshu",
+      "createdAt": "2026-04-13T06:35:39.474Z"
+    },
+    {
+      "id": "message_e5cc2c2d",
+      "senderId": "user_admin",
+      "senderName": "SSMS Admin",
+      "senderRole": "Admin",
+      "recipientId": "user_teacher",
+      "recipientName": "Ananya Mehta",
+      "recipientRole": "Teacher",
+      "subject": "intro",
+      "content": "hello",
+      "createdAt": "2026-04-10T12:59:10.086Z"
+    },
+    {
+      "id": "message_619acc54",
+      "senderId": "user_teacher",
+      "senderName": "Ananya Mehta",
+      "senderRole": "Teacher",
+      "recipientId": "user_student",
+      "recipientName": "Jitender Chauhan",
+      "recipientRole": "Student",
+      "subject": "Portal verification",
+      "content": "Checking the upgraded communication portal workflow.",
+      "createdAt": "2026-04-09T20:37:12.188Z"
+    },
+    {
+      "id": "message_1",
+      "senderId": "user_teacher",
+      "senderName": "Ananya Mehta",
+      "senderRole": "Teacher",
+      "recipientId": "user_student",
+      "recipientName": "Jitender Chauhan",
+      "recipientRole": "Student",
+      "subject": "Weekly progress check",
+      "content": "Great improvement in Computer and Science. Keep your revision pace steady.",
+      "createdAt": "2026-04-08T06:15:00.000Z"
+    },
+    {
+      "id": "message_2",
+      "senderId": "user_student",
+      "senderName": "Jitender Chauhan",
+      "senderRole": "Student",
+      "recipientId": "user_teacher",
+      "recipientName": "Ananya Mehta",
+      "recipientRole": "Teacher",
+      "subject": "Attendance clarification",
+      "content": "I was present on 4 Apr after the assembly session. Could you please review it?",
+      "createdAt": "2026-04-08T11:40:00.000Z"
+    }
+  ]
+}

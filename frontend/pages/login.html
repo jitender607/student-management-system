@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | SSMS Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+    <script>
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("ssms-theme") || "light");
+    </script>
+  </head>
+  <body>
+    <main class="auth-page page-layer">
+      <section class="auth-card">
+        <div class="auth-panel brand">
+          <div class="auth-brand-badge"><span></span> Premium Student Operations</div>
+          <h1 class="auth-title">Lead academics with clarity, speed, and polish.</h1>
+          <p class="auth-copy">
+            SSMS Pro gives your institution one elegant workspace for students, attendance, marks,
+            tasks, and beautifully structured reports.
+          </p>
+          <div class="brand-grid">
+            <article class="brand-pill">
+              <div>
+                <strong>Live Dashboard</strong>
+                <p>Quick insights into attendance, tasks, and performance.</p>
+              </div>
+              <span>01</span>
+            </article>
+            <article class="brand-pill">
+              <div>
+                <strong>PDF Reports</strong>
+                <p>Download clean report cards instantly for every student.</p>
+              </div>
+              <span>02</span>
+            </article>
+            <article class="brand-pill">
+              <div>
+                <strong>Modern Workflow</strong>
+                <p>Built for smooth daily operations on desktop and mobile.</p>
+              </div>
+              <span>03</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="auth-form-wrap">
+          <h2>Welcome back</h2>
+          <p>Sign in to continue managing your school with SSMS Pro.</p>
+          <form id="loginForm" class="auth-form">
+            <div>
+              <label class="input-label" for="loginEmail">Email</label>
+              <input id="loginEmail" type="email" name="email" placeholder="admin@ssmspro.com" required />
+            </div>
+            <div>
+              <label class="input-label" for="loginPassword">Password</label>
+              <input id="loginPassword" type="password" name="password" placeholder="Enter password" required />
+            </div>
+            <button id="loginButton" class="btn btn-primary" type="submit">Sign In</button>
+          </form>
+          <div class="demo-login-panel">
+            <span>My student login</span>
+            <button
+              class="demo-login-card"
+              type="button"
+              data-demo-email="jc504709@gmail.com"
+              data-demo-password="jitender123"
+            >
+              <strong>Jitender Chauhan</strong>
+              <small>GF202347445 · jc504709@gmail.com</small>
+            </button>
+          </div>
+          <p class="auth-footer">
+            <a href="/">Back to Project Overview</a>
+          </p>
+          <p class="auth-footer">
+            New to SSMS Pro?
+            <a href="/signup">Create an account</a>
+          </p>
+          <p class="auth-footer">
+            Demo logins:
+            <strong>admin@ssmspro.com / admin123</strong>,
+            <strong>teacher@ssmspro.com / teacher123</strong>,
+            <strong>jc504709@gmail.com / jitender123</strong>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/frontend/js/login.js"></script>
+  </body>
+</html>
