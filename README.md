@@ -74,10 +74,20 @@ After logging in, use the dashboard navigation to manage students, attendance, m
 Screenshots can be added here after deployment or local capture:
 
 - Dashboard view
+<img width="1710" height="951" alt="Screenshot 2026-05-02 at 8 26 25 PM" src="https://github.com/user-attachments/assets/d6980104-06db-4605-8e50-0c83e26be847" />
+
 - Student management view
+<img width="1710" height="949" alt="Screenshot 2026-05-02 at 8 34 14 PM" src="https://github.com/user-attachments/assets/7e08fed9-de5f-4fd4-9ec9-c8799501b7b3" />
+
 - Attendance tracking view
+<img width="1710" height="949" alt="Screenshot 2026-05-02 at 8 40 29 PM" src="https://github.com/user-attachments/assets/5eb27465-3c11-4274-80c4-a4c060af9e23" />
+
 - Performance analytics view
+<img width="1710" height="1112" alt="Screenshot 2026-05-02 at 8 45 55 PM" src="https://github.com/user-attachments/assets/67dd8883-82b5-49ea-8c16-7dd162b87824" />
+
 - Messaging portal view
+<img width="3420" height="1896" alt="image" src="https://github.com/user-attachments/assets/b567cb25-f76c-45dc-bd4c-8be9416e0ae6" />
+
 
 ## Author
 
